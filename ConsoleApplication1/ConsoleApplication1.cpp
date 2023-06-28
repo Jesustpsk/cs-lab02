@@ -8,4 +8,5 @@ int main()
     std::cout << "A + B = " << A + B << '\n'
         << "A - B = " << A - B << '\n';
     std::cout << "A * B = " << A * B << '\n';
+    std::cout << "A / B = " << A / B << '\n';
 }
