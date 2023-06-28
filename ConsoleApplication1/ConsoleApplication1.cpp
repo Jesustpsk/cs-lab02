@@ -12,4 +12,6 @@ int main()
     std::cout << "A % B = " << A % B << '\n';
     auto max{ [](int a, int b) {if (a > b) return a; else return b; } };
     std::cout << "Max: " << max(A, B);
+    auto min{ [](int a, int b) {if (a < b) return a; else return b; } };
+    std::cout << "Min: " << min(A, B);
 }
